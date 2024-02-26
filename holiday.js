@@ -2,14 +2,14 @@ const Holidays = ["正月","成人の日","建国記念日","天皇誕生日","�
 
 const Hlength = Holidays.length;
 
-for (i=0;i <=Hlength;i += 1) {
+for (i=0;i < Hlength;i += 1) {
   console.log(Holidays[i]);
 }
 
 
 let number = 0;
 
-while (number <= Hlength){
+while (number < Hlength){
   console.log(Holidays[number]);
   number++; 
 }
